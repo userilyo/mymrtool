@@ -1,6 +1,6 @@
 # 1. NLP Evaluation Task ***(Ilyas ADEN)***:
-## **Objectif:** creating a PII (Personal identification information) detection and anonymisation proof of concept using different MRT (Masking Redaction Techniques).
-### **mymrtool** is proof of concept created in oder to detect and anonymise PII in a given text file document.
+### **Objectif:** creating a PII (Personal identification information) detection and anonymisation proof of concept using different MRT (Masking Redaction Techniques).
+**mymrtool** is proof of concept created in oder to detect and anonymise PII in a given text file document.
 
 This python script will allow you to identify at the first glance following PII in the data then anonynised by redaction.
 -	UK social security number (e.g. "AB 123456 )
