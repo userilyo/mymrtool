@@ -4,7 +4,7 @@ import re
 # Define more efficient regular expressions for different PII detection and anonymization using given example
 regex_patterns = {
     "uk_ss_id": re.compile(r'\b[A-Z]{2}\s\d{6}\s[A-Z]\b'),  # e.g. AB 123456 A
-    "uk_phone_number": re.compile(r'^(?:\+44\d{10}|0\d{10})$'),  # e.g. +447444647712 or 07444647712
+    "uk_phone_number": re.compile(r'\+44\d{10}|0\d{10}'),  # e.g. +447444647712 or 07444647712 oldreg=\+44\d{10}|0\d{10} new=^(?:\+44\d{10}|0\d{10})$
     "uk_postcode": re.compile(r'\b[A-Z]{1,2}\d{1,2}[A-Z]?\s*\d[A-Z]{2}\b', re.IGNORECASE), # e.g. RG12BD or RG1 2BD or EC1N 2MN or 
     "email_address": re.compile(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b')  # e.g. abc_def@google.com
 }
