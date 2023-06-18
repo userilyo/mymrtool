@@ -40,7 +40,7 @@ def process_text(text, document_title):
 
 
 # Streamlit app
-st.title("PII Anonymizer")
+st.title("MYMRT PII Anonymizer")
 uploaded_file = st.file_uploader("Choose a text file", type="txt")
 
 if uploaded_file is not None:
