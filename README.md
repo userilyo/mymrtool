@@ -10,7 +10,7 @@ This python script will allow you to identify at the first glance following PII 
 
 **Output:** Application will allow you to upload a text file then return anonymised text file.
 
-# 2. Deployment in 10 steps to Heroku platform
+# 2. Deployment in 10 steps into Heroku platform
 - 1.Install the Heroku CLI if you haven't already.
 - 2.Create a Heroku account if you haven't already.
 - 3.Navigate to the directory where your app is located (the directory should contain app.py, requirements.txt, and Procfile).
