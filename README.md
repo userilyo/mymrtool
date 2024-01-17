@@ -1,4 +1,4 @@
-# 1. NLP Evaluation Task ***(Ilyas ADEN)***:
+# 1. NLP Evaluation Task:
 ### **Objectif:** creating a PII (Personal identification information) detection and anonymisation proof of concept using different MRT (Masking Redaction Techniques).
 **mymrtool** is proof of concept created in oder to detect and anonymise PII in a given text file document.
 
